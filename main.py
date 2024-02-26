@@ -4,9 +4,9 @@ from twilio.rest import Client
 from twilio.http.http_client import TwilioHttpClient
 
 MS_Endpoint = "https://www.meteosource.com/api/v1/free/point?"
-api_key = "df5vipmoagkkb9av8s00e4n1mtyk5uz5sygsmeug"
-account_sid = "AC40c63b7ea504f47bc35a8b0c44d48199"
-auth_token = "decf2e2732473e8e03d29512c929ff27"
+api_key = API_KEY
+account_sid = SID
+auth_token = TOKEN
 
 weather_params = {
     "lat": "51.5072",
